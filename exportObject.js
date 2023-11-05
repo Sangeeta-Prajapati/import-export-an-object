@@ -4,4 +4,4 @@ class personDetails {
     this.lastName = lastName;
   }
 }
-module.exports = personDetails();
+module.exports = new personDetails("John", "Wilson");
